@@ -27,6 +27,11 @@ public class EmpServlet extends HttpServlet {
 			List<String> errorMsgs = new LinkedList<String>();
 			// Store this set in the request scope, in case we need to
 			// send the ErrorPage view.
+			
+			//Git´ú¸Õ----------------------------------------------------------------
+			System.out.println("Hello");
+			//Git´ú¸Õ----------------------------------------------------------------			
+			
 			req.setAttribute("errorMsgs", errorMsgs);
 
 			try {
